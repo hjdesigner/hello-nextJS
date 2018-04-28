@@ -1,0 +1,23 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build": "next build",
+		"start": "next start -p $PORT"
+  },
+  "keywords": [],
+  "author": "Henrique Melanda <hjdesigner23@gmail.com> (http://www.henriquemelanda.com.br/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^5.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-markdown": "^3.3.0"
+  }
+}
